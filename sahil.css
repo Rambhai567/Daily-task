@@ -27,7 +27,7 @@ button{
     border: 1px solid red;
     font: 100 2.1rem;
     font-size: 22px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Courier New', Courier, monospace;
     border-radius: 10px;
     outline:none ;
     margin: 10px;
