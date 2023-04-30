@@ -10,7 +10,7 @@ const task = localStorage.getItem("task")
 ShowAllTask();
 
 function ShowAllTask(){
-    task.forEach((value,index)=>{
+    task.forEach((value, index) => {
         const div= document.createElement("div");
         div.setAttribute("class","task");
 
@@ -19,8 +19,10 @@ function ShowAllTask(){
         div.append(innerDiv);
 
         const p =document.createElement("p");
-        p.innerText=value.title;
+        p.innerText = value.title;
         innerDiv.append(p);
+
+        
 
         const span =document.createElement("span");
         span.innerText=value.description;
