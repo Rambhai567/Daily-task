@@ -23,7 +23,7 @@ function ShowAllTask(){
         innerDiv.append(p);
 
         const span =document.createElement("span");
-        p.innerText=value.description;
+        span.innerText=value.description;
         innerDiv.append(span);
 
 
